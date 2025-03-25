@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Siheng Yi"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "That is what I am"
   location         : "Shenzhen, P.R. China"
   employer         : "Southern University of Science and Technology (SUSTech) "
   uri              : # URL
@@ -37,7 +37,7 @@ author:
   impactstory      : # URL
   orcid            : "http://orcid.org/"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/"
   researchgate     : # URL
   scopus           : # URL
 
