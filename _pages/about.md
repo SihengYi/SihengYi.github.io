@@ -30,6 +30,9 @@ Research Grants
 
 Awards and Fellowships
 ======
+1. Gongneng Scholarship, Nankai University. December 2019
+2. Excellence Scholarship, Nankai University. November 2018
+3. National Encouragement Scholarship, Sichuan Provincial Department of Education. December 2014
 
 
 
