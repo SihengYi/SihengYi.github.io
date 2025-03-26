@@ -1,7 +1,7 @@
 title: "Calculus I, MA117"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2013-autumn-teaching-1
 venue: "Southern University of Science and Technology, Department of Mathematics"
 date: 2023-09
 location: "Shenzhen"
