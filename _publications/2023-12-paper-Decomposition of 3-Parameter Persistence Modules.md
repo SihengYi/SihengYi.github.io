@@ -2,7 +2,7 @@
 title: "Decomposition of 3-Parameter Persistence Modules"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2023-12-paper-Decomposition of 3-Parameter Persistence Modules
 excerpt: 'No detailed description will be made here.'
 date: 2023-12-01
 venue: 'Nowhere'
