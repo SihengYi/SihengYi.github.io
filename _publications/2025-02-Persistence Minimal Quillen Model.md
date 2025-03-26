@@ -2,7 +2,7 @@
 title: "Persistence Minimal Quillen Model"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/2025-02-Persistence Minimal Quillen Model
 excerpt: 'We will not provide a detailed description here for now.'
 date: 2025-2-5
 venue: 'Nowhere'
