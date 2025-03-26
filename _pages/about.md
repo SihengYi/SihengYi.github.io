@@ -14,6 +14,8 @@ my doctoral research focuses on ​Topological Data Analysis and its Theoretical
 I obtained my master's degree from [Nankai University](https://math.nankai.edu.cn/) in Tianjin, China in June 2020. 
 My research topic during my master's studies was rational homotopy theory.
 
+[Curriculum Vitae](files/CV.pdf) and [CV](http://sihengyi.github.io/files/CV.pdf)
+
 
 
 Research Interests
