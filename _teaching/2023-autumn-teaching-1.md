@@ -1,3 +1,4 @@
+---
 title: "Calculus I, MA117"
 collection: teaching
 type: "Undergraduate course"
