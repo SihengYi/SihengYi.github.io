@@ -38,4 +38,4 @@ Awards and Fellowships
 
 For more info
 ------
-More info
+[Curriculum Vitae](files/CV.pdf)
