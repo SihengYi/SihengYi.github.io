@@ -38,4 +38,4 @@ Awards and Fellowships
 
 For more info
 ------
-[Curriculum Vitae](files/CV.pdf)
+[Curriculum Vitae](files/CV.pdf) and [CV](http://sihengyi.github.io/files/CV.pdf)
