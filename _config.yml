@@ -22,7 +22,7 @@ repository               : "SihengYi/SihengYi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Siheng Yi"
   pronouns         : # example: "she/her"  
   bio              : "This is me~ That is what I am"
