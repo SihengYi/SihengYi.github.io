@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'We will not provide a detailed description here for now.'
 date: 2025-2-5
-venue: 'nowhere'
+venue: 'Nowhere'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 ---
