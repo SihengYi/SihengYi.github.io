@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Siheng Yi's Home"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
