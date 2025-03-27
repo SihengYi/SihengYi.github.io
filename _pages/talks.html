@@ -1,10 +1,11 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
+<!--
 {% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
@@ -14,3 +15,325 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+-->
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/katex.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/contrib/auto-render.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script></head>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details and Summary Example</title>
+    <style>
+        summary {
+            cursor: pointer; /* 鼠标悬停时显示为手形 */
+            font-weight: bold; /* 字体加粗 */
+            text-decoration: underline; /* 添加下划线 */
+            padding: 0; /* 移除内边距 */
+            border: none; /* 移除边框 */
+            background: none; /* 移除背景 */
+            color: #4682B4; /* 默认字体颜色 Steel Blue */
+        }
+
+        summary:hover {
+            color: #7B68EE; /* 悬停时改变文字颜色 Medium Slate Blue */
+        }
+    </style>
+</head>
+
+
+
+<br>
+<p>
+  <b>Nov 4 & 11, 2024</b>, SUSTech Graduate Topology Seminar
+</p>
+<details>
+  <summary>Perspectives from differential and algebraic geometry on ruled surfaces</summary>
+  <ul>
+    <li>
+      In the first lecture, we will begin by reviewing some basic concepts of classical differential geometry like curvature and torsion within the context of three-dimensional 
+      Euclidean space. Then we will briefly recall the structure theorems pertaining to curves and surfaces. Following this foundation, we will concentrate on the properties and 
+      classifications of ruled surfaces and developable surfaces. We will then proceed to demonstrate several explicit examples that are naturally derived from discriminant varieties 
+      of polynomial equations, highlighting some intriguing generalizations along the way.
+    </li>
+    <li>
+      Building upon last week's introduction to ruled surfaces, the second talk focuses on discriminant surfaces arising from characteristic polynomials of 3-order matrices with special 
+      symmetries. Our investigation is motivated by condensed matter physics, particularly the study of Hamiltonians exhibiting Parity-Time symmetry and Minkowski-like pseudo-Hermitian 
+      symmetry. We will present several explicit examples of such discriminant surfaces and explore their geometric properties. Notably, we will showcase numerous counterexamples of 
+      non-ruled discriminant surfaces, leading to an intriguing question: what conditions ensure that a discriminant surface is ruled?
+    </li>
+    
+    <li>
+    <a href="../files/slides1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+<br>
+<p>
+  <b>Sep 10, 2024</b>, Workshop on Computer-assisted Research in Geometry and Topology, Kunming, China
+</p>
+<details>
+  <summary>Periodicity in classical and motivic homotopy theory</summary>
+  <ul>
+    <li>
+    In this lightning talk, I will introduce the concept of exotic periodicity in the motivic stable homotopy category. 
+    Additionally, I will discuss the discovery and detection of Krause's families of elements related to the $\beta_{ij}$ periodicity.
+    </li>
+
+    <li>
+    <a href="../files/Yunnan20240910.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p>
+  <b>May 9, 2024</b>, SUSTech Applied and Computational Topology Seminar
+</p>
+<details>
+  <summary>The discovery of murmuration phenomenon for elliptic curves </summary>
+<ul>
+  <li>Topological, statistical, and machine learning methods in computational number theory </li> 
+  <p>Main references:</p>
+    <li>
+        <a href="https://www.worldscientific.com/doi/10.1142/9781800613706_0001" target="_blank">Machine learning meets number theory: The data science of 
+        Birch–Swinnerton-Dyer</a>, or <a href="https://arxiv.org/abs/1911.02008" target="_blank">arxiv version</a>
+    </li>
+    <li>
+        <a href="https://arxiv.org/abs/2310.07681" target="_blank">Nina Zubrilina - Murmurations (modular forms)</a>
+    </li>    
+    <li>
+        <a href="https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305" target="_blank">Elliptic Curve "Murmurations" Found With AI Take Flight</a>
+    </li>      
+    <li>
+        <a href="https://www.nature.com/articles/s41586-021-04086-x#additional-information" target="_blank">Advancing mathematics by guiding human intuition with AI, Nature</a>
+    </li>
+</ul>
+</details>
+
+<br>
+<p>
+  <b>Apr 16, 2024</b>, SUSTech Graduate Topology Seminar
+</p>
+<details>
+  <summary>From Adams's $v_1$-periodicity to Andrews's motivic $w_1$-periodicity in homotopy groups</summary>
+  <ul>
+    <li>
+    The purpose of this talk is to introduce Michael Andrews's work on discovering exotic periodicity in the homotopy groups of the motivic sphere spectrum and the 
+    identification of six infinite families of elements.  Firstly, we will provide a brief overview of the chromatic phenomenon in classical homotopy theory and Adams's 
+    8-periodic isomorphism, expressed by a Massey product in the Adams spectral sequence.  Then we will delve into motivic homotopy theory and explore the philosophy 
+    behind Haynes Miller's square, which serves as an analogy and connection between the motivic Adams spectral sequence and the classical Adams–Novikov spectral sequence.
+    This perspective allows us to consider multiplication by the non-nilpotent element $\eta$ as a $w_0$-periodic map, similar to the role played by $2$ for the $v_0$-
+    periodic map.  After defining a Thom reduction map to compare the $E_2$-pages of two spectral sequences, we can reduce the existence of motivic $w_1^4$-periodic maps 
+    to the existence of classical $v_1^4$-periodic maps, as initially found by Adams in the early 1960s.
+    </li>
+    
+    <li>
+    <a href="https://www.jstor.org/stable/90020453" target="_blank">New families in the homotopy of the motivic sphere spectrum - J. Andrews</a>
+    </li>
+    
+    <li>
+    <a href="../files/240416-w_1.pdf" target="_blank">Notes</a>
+    </li>
+  </ul>
+</details>
+
+<br>
+<p>
+  <b>Apr 11, 2024</b>, SUSTech Applied and Computational Topology Seminar
+</p>
+<details>
+  <summary> Categorical, statistical, and linear algebra methods in natural language processing</summary>
+  <ul>
+    <li>
+    The purpose of this talk is to introduce 
+    </li>
+Main references:
+            <li>
+                <a href="https://www.ams.org/journals/notices/202402/rnoti-p174.pdf" target="_blank">The structure of meaning in language: Parallel narratives in 
+                linear algebra and category theory</a>
+            </li>    
+            <li>
+                <a href="https://www.giannigastaldi.com/assets/pdf/slides/gastaldi_230502_cph.pdf" target="_blank">Understanding Language (Models)-AI Language Models From a 
+                    Structuralist Perspective</a>
+            </li>
+            <li>
+                <a href="https://www.giannigastaldi.com/assets/pdf/slides/gastaldi_170403_cohn.pdf" target="_blank">The Language of Mathematics-Epistemological Consequences
+                    of Applying AI Methods to Mathematics</a>
+            </li>
+             <li>
+                <a href="https://www.giannigastaldi.com/assets/pdf/slides/gastaldi_230215_cmu.pdf" target="_blank">Peeking into the AI Language Modeling Black Box</a>
+            </li>
+    <li>
+    <a href="../files/paper2.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p>
+  <b>Mar 12, 2024</b>, SUSTech Graduate Topology Seminar
+</p>
+<details>
+  <summary>An introduction to singularity theory, Milnor's fibration theorem and 
+    Brieskorn's construction of exotic spheres</summary>
+  <ul>
+    <li>
+    Through this lecture, I will provide an overview of the singularity theory of complex analytic functions and polynomials, appreciating its wide-ranging 
+    applications and contributions to various branches of mathematics.  I will begin by introducing fundamental concepts and definitions in this field, then proceed 
+    to discuss the invariants and classification of simple singular points, highlighting their significance.  Furthermore, I will illustrate the intriguing 
+    relationship between the ADE classification and other mathematical objects such as finite subgroups of the orthogonal group or the intersection form of a fiber 
+    manifold.  This connection sheds light on the broader mathematical landscape and enriches our understanding of singularity theory.  Moving forward, I will 
+    introduce the Milnor fibration of a singular point and describe its topological structure by Morse theory.  Finally, I will provide a brief introduction to the 
+    groundbreaking work of Milnor and Kervaire on the discovery and classification of exotic diffeomorphism structures on 7-dimensional spheres.  Additionally, I 
+    will touch upon Brieskorn's explicit construction, which involves a family of polynomial singularities that gives rise to all exotic spheres.  This fascinating 
+    exploration demonstrates the profound impact of singularity theory in the realm of differential topology.  
+    </li>
+
+    <li>
+    <a href="../files/paper1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p>
+  <b>Feb 17, 2024</b>, Winter Holiday Online Seminar
+</p>
+<details>
+  <summary>An introduction to topological quantum field theory</summary>
+  <ul>
+    <li>
+    Through this lecture
+    </li>
+
+    <li>
+    <a href="../files/paper1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+<br>
+<p>
+  <b>Dec 19, 2023</b>, SUSTech Doctoral Dissertation Proposal, M1001
+</p>
+<details>
+  <summary>Chromatic structures in motivic and equivariant stable homotopy categories</summary>
+  <ul>
+    <li>
+    Through this lecture
+    </li>
+
+    <li>
+    <a href="../files/paper1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p>
+  <b>Nov 28, 2023</b>, SUSTech Graduate Topology Seminar
+</p>
+<details>
+  <summary>On "The special fiber of the motivic deformation of the stable homotopy category is algebraic"</summary>
+  <ul>
+    <li>
+    In this talk, I will introduce the main content of the paper ''The special fiber of the motivic deformation of the stable homotopy 
+    category is algebraic'' by Bogdan Gheorghe, Guozhen Wang, and Zhouli Xu. They define a Chow-Novikov t-structure on the category of module 
+    spectra over cofiber $S^{0,0}/\tau$, and establish that this category is equivalent to the derived category of $BP_*BP$-comodule category
+    as stable $\infty$-categories equipped with t-structures. <br>
+        
+    An exciting application is the isomorphism between the motivic Adams spectral sequence for $S^{0,0}/\tau$ and the algebraic Novikov spectral 
+    sequence. This isomorphism enables Isaksen, Wang, and Xu to compute the stable homotopy groups of spheres up to the 90-stem.
+    </li>
+
+    <li>
+    <a href="../files/paper3.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p><b>May 30, 2023</b>, SUSTech Graduate Topology Seminar</p>
+<details>
+  <summary>Functor calculus and chromatic homotopy theory</summary>
+  <ul>
+    <li>
+    Through this lecture
+    </li>
+
+    <li>
+    <a href="../files/paper1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+<br>
+<p><b>May 11, 2023</b>, SUSTech Undergraduate Geometry and Topology Seminar</p>
+<details>
+  <summary>Intoduction to Floer homology and knot Floer homology</summary>
+  <ul>
+    <li>
+    Through this lecture
+    </li>
+
+    <li>
+    <a href="../files/paper1.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+
+<br>
+<p>
+  <b>Oct 10, 2022</b>, SUSTech Applied and Computational Topology Seminar
+</p>
+<details>
+  <summary> Periodicity detection of biomedical video and human speech signal</summary>
+  <ul>
+    <li>
+    This is a progress report about detection of mouse scratching behavior by analyzing one-dimensional time series data via sliding window embedding and geometric statistics, and a 
+      introduction about the moduli space theory of vowels and consonants in linguistic.
+    </li>
+
+    <li>
+    <a href="../files/paper2.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
+
+<br>
+<p>
+  <b>May 26, 2022</b>, BNU Master's Thesis Defense 
+</p>
+<details>
+  <summary>Some topics on smooth quandles</summary>
+  <ul>
+    <li>
+    Quandles are algebraic structures derived from knots theory, smooth quandles have both algebraic structures and compatible smooth manifold structures, so they are rich in
+    content. In this thesis, we study the construction and classification of smooth quandles on homogeneous spaces in detail. Then given a fixed Lie group, we define a series of mapping type knot invariants
+    and compute this invariant for all torus knots and Borromean links. At last, we study the deformation of smooth quandle structures, and define a new
+    quandle cohomology theory and corresponding Kodaira-Spencer mapping by analogizing the deformation theories of complex geometry and associative algebra.
+    </li>
+
+    <li>
+    <a href="../files/paper4.pdf" target="_blank">Slides</a>
+    </li>
+  </ul>
+</details>
