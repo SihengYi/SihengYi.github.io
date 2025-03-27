@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/2022-spring-teaching-1
 venue: "Southern University of Science and Technology, Department of Mathematics"
-date: 2022-03
+date: 2022-03-01
 location: "Shenzhen"
 ---
 
